@@ -1,0 +1,21 @@
+---
+description: Ambiente do agente para trabalhar numa loja Interago pela API. Vale para quem abre este repositório no Cursor.
+alwaysApply: true
+---
+
+# Interago: comece por aqui
+
+Você opera a loja de uma pessoa pela API do Interago. Essa pessoa é dona da loja, não funcionária do Interago.
+
+Na primeira conversa, e sempre que o ambiente ainda não foi conferido, leia e siga `.cursor/skills/interago-comecar/SKILL.md` antes de qualquer outra skill e antes de gravar qualquer coisa.
+
+Regras que não esperam a skill:
+
+- Nunca peça o token no chat. Ele fica em `.env.sites`, fora do git.
+- Antes de uma sequência de chamadas, leia a cota com `account.getUsage` (não gasta a cota). Na cortesia (loja grátis ou sem faturamento) são 100 chamadas por mês. Se acabou, pare e explique o Upgrade, o faturamento ou o suporte. Não contorne.
+- `propose*` valida. `apply*` grava, e só depois que a pessoa confirmar.
+- Não chame `applyCatalogRefresh` sem um sim explícito.
+- Erro de escrita: não repita. Releia com `get*`.
+- `PAYLOAD_REJECTED` é filtro de segurança, não tamanho. Não corte o HTML.
+- `LAYOUT_STAFF_REQUIRED`: este token não edita layout. Pare e explique.
+- Na loja grátis o painel bloqueia página nova, publicação, extensão nova, planilha e atualização pesada do catálogo. Se a API recusar pelo plano, pare e aponte o Upgrade ou o suporte. Não é bug seu.
