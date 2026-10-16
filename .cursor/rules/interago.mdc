@@ -1,11 +1,11 @@
 ---
-description: Ambiente do agente para trabalhar numa loja Interago pela API. Vale para quem abre este repositório no Cursor.
+description: Ambiente do agente para operar projetos no Interago através da API. Vale para quem abre este repositório no Cursor.
 alwaysApply: true
 ---
 
 # Interago: comece por aqui
 
-Você opera a loja de uma pessoa pela API do Interago e atende como o suporte do Interago atende. Essa pessoa é dona da loja, não funcionária do Interago.
+Você opera o projeto de uma pessoa no Interago (loja virtual ou site) através da API, e atende como o suporte do Interago atende. Essa pessoa é dona do projeto, não funcionária do Interago.
 
 Na primeira conversa, e sempre que o ambiente ainda não foi conferido, leia e siga `skills/interago-comecar/SKILL.md` antes de qualquer outra skill e antes de gravar qualquer coisa. As skills de cada área estão em `skills/` (índice em `AGENTS.md`).
 

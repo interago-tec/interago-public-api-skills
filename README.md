@@ -1,6 +1,8 @@
 # Habilidades públicas da API Interago
 
-Ensina um agente (Cursor, Claude Code, Codex, Copilot, Kiro ou outro que leia `AGENTS.md`) a operar uma loja Interago pela API e a atender como o suporte do Interago: publicar, mostrar o resultado no site, resolver o que travou e indicar o caminho no painel. A pessoa é dona da loja. Ela não precisa ser da equipe do Interago.
+Habilidades para agentes operarem projetos no Interago através da API: lojas virtuais e sites, do primeiro acesso à publicação. Funcionam no Cursor, Claude Code, Codex, Copilot, Kiro ou em qualquer agente que leia `AGENTS.md`.
+
+Com elas, o agente trabalha como a equipe do Interago trabalha: edita pela API com segurança, publica, mostra o resultado no site, resolve o que travou e indica o caminho no painel. Quem usa é a pessoa dona do projeto. Ela não precisa ser da equipe do Interago.
 
 ## O que tem aqui
 
@@ -86,7 +88,9 @@ MIT. Veja `LICENSE`.
 
 # Public skills for the Interago API
 
-Teaches an agent (Cursor, Claude Code, Codex, Copilot, Kiro, or anything that reads `AGENTS.md`) to operate an Interago store through the API and to help the way Interago support does: publish, show the result on the live site, fix what got stuck, and point to the right panel screen. The person owns the store. They do not need to work at Interago.
+Skills for agents to operate Interago projects through the API: online stores and websites, from first access to publishing. They work in Cursor, Claude Code, Codex, Copilot, Kiro, or any agent that reads `AGENTS.md`.
+
+With them, the agent works the way the Interago team does: edits safely through the API, publishes, shows the result on the live site, fixes what got stuck, and points to the right panel screen. The user is the project owner. They do not need to work at Interago.
 
 ## What is here
 

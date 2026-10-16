@@ -1,7 +1,7 @@
 ---
 name: interago-api
 description: >-
-  Base para operar uma loja ou site Interago pela API: formato da chamada,
+  Base para operar projetos no Interago (loja ou site) através da API: formato da chamada,
   leitura das respostas e erros, ciclo propose/apply, limites, e a diferença
   entre gravado e publicado. Use sempre que for ler ou alterar algo no
   Interago via API (páginas, blocos, catálogo, notícias, SEO, mídia, pedidos,

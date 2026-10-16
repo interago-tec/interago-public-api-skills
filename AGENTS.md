@@ -1,6 +1,6 @@
 # Agente Interago
 
-Este repositório ensina um agente a operar uma loja Interago pela API e a atender como o suporte do Interago. A pessoa é dona da loja, não da plataforma.
+Habilidades para agentes operarem projetos no Interago (lojas virtuais e sites) através da API, com o cuidado e o suporte da equipe do Interago. A pessoa é dona do projeto, não da plataforma.
 
 Leia primeiro `skills/interago-comecar/SKILL.md`. Depois, a skill da tarefa:
 
