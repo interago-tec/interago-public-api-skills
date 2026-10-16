@@ -1,0 +1,8 @@
+# Novidades da plataforma
+
+Índice da Central de Ajuda do Interago. Abra o link para ler o passo a passo atual.
+
+- [15 a 21 de setembro: Recuperar carrinho, venda sem estoque, produção e Konektor Sankhya](https://www.interago.com.br/site/ajuda/34706-update-semanal-15-a-21-de-setembro-recuperar-carrinho-venda-sem-estoque-producao-konektor-sankhya). Recuperação de carrinho, venda com tempo de produção, Konektor Sankhya, Merchant Center e PIX.
+- [22 a 27 de setembro: Avaliações com fotos, Konektor e recuperação de carrinho](https://www.interago.com.br/site/ajuda/35589-22-a-27-de-setembro-avaliacoes-com-fotos-konektor-e-recuperacao-de-carrinho). Avaliação por link com fotos após a entrega, Konektor com fila e reenvio, cobrança e relatório da recuperação de carrinho, Frenet, Stone e catálogo.
+- [28 de setembro a 4 de outubro: Avaliações na conta do cliente, checkout e etiquetas com NF-e](https://www.interago.com.br/site/ajuda/36060-28-de-setembro-a-4-de-outubro-avaliacoes-na-conta-do-cliente-checkout-e-etiquetas-com-nf-e). Avaliações e foto de perfil na área do cliente, cartão Mercado Pago mais estável, chave da NF-e nas etiquetas J&T e Jadlog, Konektor com envio manual e melhorias em blog, páginas e catálogo.
+- [5 a 11 de outubro: Faixas nativas de CEP para cálculo de preços, otimização de recuperação de carrinho e integração com Bling](https://www.interago.com.br/site/ajuda/36216-5-a-11-de-outubro-frete-no-carrinho-recuperar-carrinho-e-konektor-bling). Frete ao vivo no carrinho e na ficha, Pix Pagar.me no Konektor, gráfico dia a dia no Recuperar Carrinho, conector Bling e TagPlus estável.

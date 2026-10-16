@@ -199,9 +199,16 @@ def main():
         if blocked:
             sys.exit(blocked)
     result = call(website_id, token, module, method, params)
-    if isinstance(result, dict) and result.get("code") == "API_QUOTA_EXCEEDED":
+    code = result.get("code") if isinstance(result, dict) else None
+    if code == "API_QUOTA_EXCEEDED":
         print("\nCOTA MENSAL ESGOTADA. Upgrade da loja ou faturamento Interago para continuar neste mês. "
-              "Ou espere o dia 1. Suporte do Interago para recursos avançados.", file=sys.stderr)
+              "Ou espere o dia 1. Link de upgrade: " + str(result.get("upgradeUrl") or "painel da loja"), file=sys.stderr)
+    elif code in ("FREE_TIER_DENIED", "FREE_TIER_PRODUCT_LIMIT"):
+        print("\nLOJA GRÁTIS: a API lê e valida (get, list, propose), mas não grava páginas, blocos, "
+              "catálogo, frete, cupons nem SEO. "
+              "Faça a alteração pelo painel (skill interago-suporte) ou faça o Upgrade.", file=sys.stderr)
+    elif code == "API_BLOCKED":
+        print("\nAPI BLOQUEADA nesta loja. Só a equipe do Interago desbloqueia. Não tente de novo.", file=sys.stderr)
 
     if out:
         os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
